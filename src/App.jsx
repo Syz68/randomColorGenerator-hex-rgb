@@ -24,10 +24,10 @@ function App() {
 
   return (
     <div
-      className="w-screen h-screen"
+      className="w-screen h-screen p-4"
       style={{ backgroundColor: color }}
     >
-      <h1 className="text-3xl font-bold underline text-center text-gray-300">Random Color Generator</h1>
+      <h1 className="text-3xl font-bold mt-3 underline text-center text-gray-300">Random Color Generator</h1>
 
       <div className="flex justify-center items-center space-x-4 mt-4 "> 
         <button className="bg-sky-400 p-3 rounded-md font-semibold hover:bg-sky-500 shadow-md" onClick={() => setTypeOfColor('hex')}>Create Hex Color</button>
